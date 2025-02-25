@@ -29,9 +29,13 @@ The best solution is **Parallel Processing using Worker Threads**:
 ---
 
 ## **Steps to Run**
-1️⃣ **Install Node.js** (if not installed):  
-   - [Download Node.js](https://nodejs.org/)  
-   
-2️⃣ **Run the script**:  
+### 1. **Install Node.js** (if not installed):  
+   -  [Download Node.js](https://nodejs.org/)
+### 2. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/log-extractor.git
+   cd log-extractor
+
+### 3. **Run the script**:  
    ```sh
    node src/extract_logs.js 2024-12-01
