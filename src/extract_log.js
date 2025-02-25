@@ -4,7 +4,7 @@ const { Worker } = require('worker_threads');
 const path = require('path');
 
 const NUM_WORKERS = os.cpus().length; // Utilize all CPU cores
-const logFile = 'large_log.txt'; // Change this to your actual log file
+const logFile = '/Users/princejagota01/Desktop/large_log.txt'; // path of the actual log file
 const outputDir = 'output';
 
 if (!fs.existsSync(outputDir)) {
